@@ -1,8 +1,9 @@
+import SwapDialog from "@/components/swap_page/SwapDialog"
 
 const page = () => {
   return (
     <div>
-        <h1>Swap</h1>
+        <SwapDialog />
     </div>
   )
 }
