@@ -39,4 +39,6 @@ const TOKEN_DATA = {
         "type":"crypto",
         "logo":"https://assets.coingecko.com/coins/images/825/standard/bnb-icon2_2x.png?1696501970"
     }
-}
+};
+
+export default TOKEN_DATA;

@@ -38,6 +38,7 @@ const SYMBOL_DATA = {
         "base":"AMZN",
         "type":"equity",
         "logo":"https://assets.coingecko.com/coins/images/1/large/amazon.png?1696501626"
-    },
+    }
+};
 
-}
+export default SYMBOL_DATA;
