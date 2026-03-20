@@ -1,10 +1,9 @@
-
 const TokenDashboard = () => {
   return (
-    <div>
-        <h1>TokenDashboard</h1>
+    <div className="mt-6 rounded-xl border border-border/60 bg-background/80 p-6 text-sm text-muted-foreground">
+      Trade history is derived directly from on-chain transactions (no off-chain database).
     </div>
-  )
-}
+  );
+};
 
-export default TokenDashboard
+export default TokenDashboard;

@@ -1,10 +1,17 @@
+import PriceChart from "@/components/charts/PriceChart";
 
-const StockChart = () => {
+type StockChartProps = {
+  title: string;
+  symbol: string;
+  feedId: string;
+};
+
+const StockChart = ({ title, symbol, feedId }: StockChartProps) => {
   return (
-    <div>
-        <h1>StockChart</h1>
+    <div className="mt-6">
+      <PriceChart title={title} symbol={symbol} feedId={feedId} />
     </div>
-  )
-}
+  );
+};
 
-export default StockChart
+export default StockChart;
